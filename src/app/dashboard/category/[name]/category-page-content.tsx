@@ -98,7 +98,7 @@ export const CategoryPageContent = ({
         header: ({ column }) => {
           return (
             <Button
-              variant="outline"
+              variant="neon"
               onClick={() =>
                 column.toggleSorting(column.getIsSorted() === "asc")
               }
