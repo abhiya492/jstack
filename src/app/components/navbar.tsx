@@ -20,7 +20,7 @@ export const Navbar = async () => {
             {user ? (
               <>
                 <SignOutButton>
-                  <Button size="sm" variant="outline">
+                  <Button size="sm" variant="glass">
                     Sign out
                   </Button>
                 </SignOutButton>
